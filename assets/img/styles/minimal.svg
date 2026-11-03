@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+<defs><filter id="g" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .06 0"/></filter></defs>
+<rect width="600" height="800" fill="#0d0d0d"/>
+<g fill="none" stroke="#e9e6e0" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="300" cy="360" r="120" stroke-width="1.2"/>
+<path d="M340 280 A90 90 0 1 0 340 440 A72 72 0 1 1 340 280Z" stroke-width="1.2" fill="#e9e6e0" fill-opacity=".9"/>
+<path d="M300 510 V690" stroke-width="1.2"/>
+<circle cx="300" cy="710" r="3" fill="#e9e6e0" stroke="none"/>
+<circle cx="300" cy="200" r="2" fill="#e9e6e0" stroke="none"/>
+<circle cx="300" cy="175" r="1.4" fill="#e9e6e0" stroke="none" opacity=".7"/>
+<path d="M450 210 l8 0 M454 206 l0 8" stroke-width="1"/>
+<path d="M130 420 l6 0 M133 417 l0 6" stroke-width="1" opacity=".7"/>
+</g>
+<rect width="600" height="800" filter="url(#g)"/>
+</svg>

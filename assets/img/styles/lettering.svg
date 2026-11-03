@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+<defs><filter id="g" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .06 0"/></filter></defs>
+<rect width="600" height="800" fill="#0d0d0d"/>
+<g fill="none" stroke="#e9e6e0" stroke-linecap="round" stroke-linejoin="round">
+<g stroke-width=".6" opacity=".3" stroke-dasharray="3 6"><path d="M60 300 H540 M60 470 H540 M60 540 H540 M60 230 H540"/></g>
+<g stroke="none" fill="#e9e6e0"><text x="300" y="470" text-anchor="middle" font-family="Didot, 'Bodoni 72', 'Playfair Display', 'Times New Roman', Georgia, serif" font-style="italic" font-size="260">Ink</text></g>
+<path d="M150 600 C230 570 370 630 450 590" stroke-width="1.2"/>
+<path d="M120 640 H480" stroke-width=".6" opacity=".4"/>
+<g stroke="none" fill="#e9e6e0" opacity=".55"><text x="300" y="690" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="6">A B C D E F G</text></g>
+</g>
+<rect width="600" height="800" filter="url(#g)"/>
+</svg>
